@@ -6,8 +6,14 @@
 
 /* Navbar area start  */
 
+.nav-logo img {
+  width: 30%;
+  border-radius: 50%;
+}
+
 .navbar-brand img {
   width: 26%;
+  
 }
 
 
@@ -17,7 +23,7 @@
   background-image: url(/assests/cars/hero-image0.jpg);
   background-size: cover;
   background-position: center;
- 
+
 
 }
 
@@ -29,11 +35,16 @@
 .img-sec img {
   width: 80%;
 }
-
-.card{
+.nav-icon i{
+  display: none;
+}
+.card {
   height: 400px;
 }
 
+.cards{
+  padding: 0 25px;
+}
 /* display area end  */
 
 
@@ -61,4 +72,33 @@
 .footer_section a {
   color: #f9fcfb;
 }
+
 /* footer section end  */
+
+
+
+
+
+
+@media (max-width: 680px) {
+  .dropdown{
+    display: none;
+    
+  }
+  .nav-icon i{
+    display: block;
+    font-size: 2.5rem;
+    color: red;
+  }
+}
+
+
+.car-list{
+  padding: 5px;
+  cursor: pointer;
+}
+
+.varient-list{
+  padding: 5px;
+  cursor: pointer;
+}

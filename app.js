@@ -7,6 +7,50 @@
 
 // swal("Welcome To Pak Wheels", "Click Ok To Continue", "info")
 
+// function for click on cars 
+function getCars() {
+    var carBtn = document.getElementById("car-btn");
+    var companyList = document.getElementById("company-list");
+
+    companyList.innerHTML =
+    `<li class='car-list' onclick='getHondaCar()'>Honda</li> <br> 
+    <li class='car-list'> Toyota</li> <br>
+    <li class='car-list'> BMW</li> <br>
+    <li class='car-list'> Audi </li> <br>
+    <li class='car-list'> Hyndai</li> <br>
+    <li class='car-list'> Suzuki </li> <br>`
+   
+
+}
+
+
+
+// function for click on bikes 
+function getBikes() {
+    var bikeBtn = document.getElementById("bike-btn");
+    var companyList = document.getElementById("company-list");
+
+    companyList.innerHTML =
+    `<li class='car-list'>Honda</li> <br> 
+    <li class='car-list'> Super Power</li> <br>
+    <li class='car-list'> Suzuki</li> <br>`
+
+}
+
+// function for click on Honda Car 
+function getHondaCar() {
+   
+    var varientList = document.getElementById("varient-list");
+    varientList.innerHTML =
+    `<li class='varient-list'>Civic</li> <br> 
+    <li class='varient-list'>City</li> <br>
+    <li class='varient-list'> Vezel</li> <br>`
+
+
+}
+
+
+
 
 var vehicle = {
     cars: {
@@ -244,7 +288,7 @@ var vehicle = {
         }
 
     },
-    Bikes : {
+    Bikes: {
         superPower: {
             sp: {
                 name: "Super Power SP 70",
@@ -326,4 +370,4 @@ var vehicle = {
     }
 }
 
-console.log(vehicle.cars.bmw)
+// console.log(vehicle.cars.bmw)
