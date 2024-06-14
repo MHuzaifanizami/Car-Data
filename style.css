@@ -16,6 +16,9 @@
   
 }
 
+.nav-icon{
+  cursor: pointer;
+}
 
 .hero {
   width: 100%;
@@ -23,8 +26,31 @@
   background-image: url(/assests/cars/hero-image0.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+}
 
+@media (max-width: 1200px) {
+  .hero {
+    background-position: top;
+  }
+}
 
+@media (max-width: 992px) {
+  .hero {
+    background-position: top;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh; 
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 40vh; 
+  }
 }
 
 /* Navbar area end  */

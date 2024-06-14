@@ -7,6 +7,8 @@
 
 // swal("Welcome To Pak Wheels", "Click Ok To Continue", "info")
 
+
+
 // function for click on cars 
 function getCars() {
     var carBtn = document.getElementById("car-btn");
@@ -48,6 +50,10 @@ function getHondaCar() {
 
 
 }
+
+
+// get on click nav-icon 
+
 
 
 
