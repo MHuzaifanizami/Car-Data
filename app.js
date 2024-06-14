@@ -5,7 +5,7 @@
 //     icon: "Welcome"
 //   });
 
-swal("Welcome To Pak Wheels", "Click Ok To Continue", "info")
+// swal("Welcome To Pak Wheels", "Click Ok To Continue", "info")
 
 
 var vehicle = {
@@ -29,15 +29,6 @@ var vehicle = {
                 Price: "86 - 90 Lacs",
                 transmission: "Auto & Manual"
 
-            },
-            freed: {
-                name: "Honda Freed",
-                model: 2024,
-                colors: ["black", "white", "red"],
-                fuelType: "Petrol",
-                engine: "1500CC",
-                Price: "27 - 57 Lacs",
-                transmission: "Automatic"
             },
             vezel: {
                 name: "Honda Vezel",
@@ -335,4 +326,4 @@ var vehicle = {
     }
 }
 
-console.log(Bikes.superPower)
+console.log(vehicle.cars.bmw)

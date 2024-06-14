@@ -1,0 +1,7 @@
+// {
+//     "css.enabledLanguages": ["style.css"]
+//   }
+
+  {
+    "css.styleSheets": ["**/*.css"]
+  }
