@@ -7,57 +7,6 @@
 
 // swal("Welcome To Pak Wheels", "Click Ok To Continue", "info")
 
-
-
-// function for click on cars 
-function getCars() {
-    var carBtn = document.getElementById("car-btn");
-    var companyList = document.getElementById("company-list");
-
-    companyList.innerHTML =
-    `<li class='car-list' onclick='getHondaCar()'>Honda</li> <br> 
-    <li class='car-list'> Toyota</li> <br>
-    <li class='car-list'> BMW</li> <br>
-    <li class='car-list'> Audi </li> <br>
-    <li class='car-list'> Hyndai</li> <br>
-    <li class='car-list'> Suzuki </li> <br>`
-   
-
-}
-
-
-
-// function for click on bikes 
-function getBikes() {
-    var bikeBtn = document.getElementById("bike-btn");
-    var companyList = document.getElementById("company-list");
-
-    companyList.innerHTML =
-    `<li class='car-list'>Honda</li> <br> 
-    <li class='car-list'> Super Power</li> <br>
-    <li class='car-list'> Suzuki</li> <br>`
-
-}
-
-// function for click on Honda Car 
-function getHondaCar() {
-   
-    var varientList = document.getElementById("varient-list");
-    varientList.innerHTML =
-    `<li class='varient-list'>Civic</li> <br> 
-    <li class='varient-list'>City</li> <br>
-    <li class='varient-list'> Vezel</li> <br>`
-
-
-}
-
-
-// get on click nav-icon 
-
-
-
-
-
 var vehicle = {
     cars: {
         honda: {
@@ -375,5 +324,61 @@ var vehicle = {
         }
     }
 }
+
+var vehicles = document.getElementById("vehicle");
+var company = document.getElementById("company");
+
+vehicles.innerHTML = "<option value = ''>Select a Vehicle</option>";
+company.innerHTML = "<option value = ''>Select a Company</option>";
+
+for (key in vehicle) {
+    // console.log(key)
+
+    vehicles.innerHTML +=
+        `<option value ='${key}'>${key}</option>`
+}
+
+// vehicles.addEventListener("change", getVehicle);
+
+function getVehicle() {
+   
+        for (var key in vehicle[vehicles.value]) {
+            company.innerHTML +=
+
+                `<option value ='${key}'>${key}</option>`
+               
+        }
+      
+}
+// company.innerHTML = ""
+
+// getVehicle()
+
+
+
+// function for click on bikes 
+function getBikes() {
+
+
+
+
+}
+
+// function for click on Honda Car 
+function getHondaCar() {
+
+
+
+
+}
+
+
+// get on click nav-icon
+
+
+
+
+
+
 
 // console.log(vehicle.cars.bmw)

@@ -20,6 +20,7 @@
         <header class="main">
             <nav class="navbar">
                 <div class="container-fluid">
+                    <!-- navbar logo here  -->
                     <div class="nav-logo">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTZzR2UoEPUl0U3q8GhU8jb76xAmxhFJNJJg&s"
                             alt="Image">
@@ -27,65 +28,45 @@
 
                         </a>
                     </div>
-
+                    <!-- navbar responsive icon here  -->
                     <div class="nav-icon">
                         <i class="fa-solid fa-bars" onclick="getlist()"></i>
                     </div>
-                    
-                    <div class="dropdown">
-                        <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Vehicle
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-primary mt-2">
-                            <li class="car-btn"><a class="dropdown-item" href="#" onclick="getCars()">Cars</a></li>
-                            <li class="bike-btn"><a class="dropdown-item" href="#" onclick="getBikes()">Bikes</a></li>
-                        </ul>
 
-                        <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" onclick="getHondaCar()">
-                            Company
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-primary mt-2" id="company-list">
-                            <li><a class="dropdown-item" href="#">Select Vehicle</a></li>
-                            <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li> -->
-                        </ul>
+                    <!-- drop down start here  -->
+                    <div class="nav-right d-flex">
+                        <select id="vehicle" class="form-select" aria-label="Default select example" style="width: 400px;" onchange="getVehicle()">
+                           
+                        </select>
 
+                        <select id="company" class="form-select" aria-label="Default select example" style="width: 60%;">
+                           
+                        </select>
 
-                        <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Varient
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-primary" id="varient-list">
-                            <li><a class="dropdown-item" href="#">Select Company</a></li>
-                            <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li> -->
-                        </ul>
+                        <select class="form-select" aria-label="Default select example" style="width: 60%;">
+                            <option selected>Open this </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <!-- search button here  -->
 
                         <button type="button" class="btn btn-dark">Search</button>
                     </div>
                 </div>
-            </nav>
+    </div>
+    </nav>
 
-        </header>
-        <!-- Header area End  -->
+    </header>
+    <!-- Header area End  -->
 
-        <!-- Display Area Start  -->
+    <!-- Display Area Start  -->
 
-        <section class="display-section">
+    <section class="display-section">
 
 
 
-        </section>
+    </section>
 
     </div>
     <!-- Display Area End  -->

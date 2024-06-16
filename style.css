@@ -13,11 +13,22 @@
 
 .navbar-brand img {
   width: 26%;
-  
+
 }
 
-.nav-icon{
+.nav-icon {
   cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+
+  .form-select {
+    cursor: pointer;
+    color: black;
+  }
 }
 
 .hero {
@@ -43,13 +54,13 @@
 
 @media (max-width: 768px) {
   .hero {
-    height: 50vh; 
+    height: 50vh;
   }
 }
 
 @media (max-width: 576px) {
   .hero {
-    height: 40vh; 
+    height: 40vh;
   }
 }
 
@@ -61,16 +72,19 @@
 .img-sec img {
   width: 80%;
 }
-.nav-icon i{
+
+.nav-icon i {
   display: none;
 }
+
 .card {
   height: 400px;
 }
 
-.cards{
+.cards {
   padding: 0 25px;
 }
+
 /* display area end  */
 
 
@@ -107,11 +121,12 @@
 
 
 @media (max-width: 680px) {
-  .dropdown{
+  .dropdown {
     display: none;
-    
+
   }
-  .nav-icon i{
+
+  .nav-icon i {
     display: block;
     font-size: 2.5rem;
     color: red;
@@ -119,12 +134,12 @@
 }
 
 
-.car-list{
+.car-list {
   padding: 5px;
   cursor: pointer;
 }
 
-.varient-list{
+.varient-list {
   padding: 5px;
   cursor: pointer;
 }
