@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
 /* Navbar area start  */
 
 .nav-logo img {
@@ -24,12 +27,14 @@
   display: flex;
   justify-content: flex-end;
   gap: 8px;
-
-  .form-select {
-    cursor: pointer;
-    color: black;
-  }
+  /* display: none; */
 }
+
+.form-select {
+  cursor: pointer;
+  color: black;
+}
+
 
 .hero {
   width: 100%;
@@ -85,6 +90,14 @@
   padding: 0 25px;
 }
 
+
+#screen-col2 p{
+  margin-bottom:12px ;
+}
+
+#screen-row{
+  max-width: 100%;
+}
 /* display area end  */
 
 
@@ -121,8 +134,8 @@
 
 
 @media (max-width: 680px) {
-  .dropdown {
-    display: none;
+  .nav-right {
+    display: none !important;
 
   }
 
@@ -143,3 +156,4 @@
   padding: 5px;
   cursor: pointer;
 }
+

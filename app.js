@@ -7,6 +7,8 @@
 
 // swal("Welcome To Pak Wheels", "Click Ok To Continue", "info")
 
+
+
 var vehicle = {
     cars: {
         honda: {
@@ -16,8 +18,9 @@ var vehicle = {
                 colors: ["black", "white"],
                 fuelType: "Petrol",
                 engine: "1200CC",
-                Price: "46 - 58 Lacs",
-                transmission: "Auto & Manual"
+                price: "46 - 58 Lacs",
+                transmission: "Auto & Manual",
+                image: '/assests/cars/honda/CIty.jpeg'
             },
             civic: {
                 name: "Honda Civic",
@@ -25,8 +28,9 @@ var vehicle = {
                 colors: ["black", "white"],
                 fuelType: "Petrol",
                 engine: "1500CC",
-                Price: "86 - 90 Lacs",
-                transmission: "Auto & Manual"
+                price: "86 - 90 Lacs",
+                transmission: "Auto & Manual",
+                image: '/assests/cars/honda/Civic.jpeg'
 
             },
             vezel: {
@@ -35,8 +39,9 @@ var vehicle = {
                 colors: ["black", "white", "red"],
                 fuelType: "Hybrid",
                 engine: "1500CC",
-                Price: "70 - 85 Lacs",
-                transmission: "Automatic"
+                price: "70 - 85 Lacs",
+                transmission: "Automatic",
+                image: '/assests/cars/honda/Vezel.jpeg'
             },
         },
         toyota: {
@@ -46,8 +51,9 @@ var vehicle = {
                 colors: ["white", "silver", "Black"],
                 fuelType: "Petrol",
                 engine: "1300CC",
-                Price: "27 - 75 Lacs",
-                transmission: "Automatic & Manual"
+                price: "27 - 75 Lacs",
+                transmission: "Automatic & Manual",
+                image: '/assests/cars/toyota/Coralla.jpg'
             },
             yaris: {
                 name: "Toyota Yaris",
@@ -55,8 +61,9 @@ var vehicle = {
                 colors: ["white", "silver", "Black"],
                 fuelType: "Petrol",
                 engine: "1500CC",
-                Price: "44 - 63 Lacs",
-                transmission: "Automatic & Manual"
+                price: "44 - 63 Lacs",
+                transmission: "Automatic & Manual",
+                image: '/assests/cars/toyota/yaris.jpg'
             },
             revo: {
                 name: "Toyota Revo",
@@ -64,8 +71,9 @@ var vehicle = {
                 colors: ["white", "silver", "Black"],
                 fuelType: "Diesel",
                 engine: "2750CC",
-                Price: "1.2 - 2.5 Crore",
-                transmission: "Automatic & Manual"
+                price: "1.2 - 2.5 Crore",
+                transmission: "Automatic & Manual",
+                image: '/assests/cars/toyota/Revo.jpeg'
             },
             fortuner: {
                 name: "Toyota Fortuner",
@@ -73,17 +81,9 @@ var vehicle = {
                 colors: ["white", "silver", "Black"],
                 fuelType: "Diesel & Petrol",
                 engine: "2800CC",
-                Price: "1.9 - 2.9 Crore",
-                transmission: "Automatic"
-            },
-            aqua: {
-                name: "Toyota Aqua",
-                model: "2022",
-                colors: ["white", "silver", "Black"],
-                fuelType: "Hbrid",
-                engine: "1500CC",
-                Price: "48 Lacks",
-                transmission: "Automatic"
+                price: "1.9 - 2.9 Crore",
+                transmission: "Automatic",
+                image: '/assests/cars/toyota/fortuner.png'
             },
             camry: {
                 name: "Toyota Camry",
@@ -91,8 +91,9 @@ var vehicle = {
                 colors: ["silver", "Black"],
                 fuelType: "Petrol",
                 engine: "1500CC",
-                Price: "75 Lacks",
-                transmission: "Automatic"
+                price: "75 Lacks",
+                transmission: "Automatic",
+                image: '/assests/cars/toyota/Camry.jpeg'
             },
             supra: {
                 name: "Toyota Gr Supra",
@@ -100,12 +101,12 @@ var vehicle = {
                 colors: ["silver", "Black"],
                 fuelType: "Petrol",
                 engine: "3000CC",
-                Price: "1 - 1.5 crore",
-                transmission: "Automatic"
+                price: "1 - 1.5 crore",
+                transmission: "Automatic",
+                image: '/assests/cars/toyota/supra.jpg'
             },
 
         },
-
         suzuki: {
             cultus: {
                 name: "Suzuki Cultus",
@@ -113,8 +114,9 @@ var vehicle = {
                 colors: ["white", "silver", "Black", "red"],
                 fuelType: "Petrol",
                 engine: "660CC",
-                Price: "23 - 30 Lacs",
-                transmission: "Automatic & Manual"
+                price: "23 - 30 Lacs",
+                transmission: "Automatic & Manual",
+                image: '/assests/cars/suzuki/Suzuki Cultus.jpeg'
             },
             wagonR: {
                 name: "Suzuki Wagon R",
@@ -122,17 +124,19 @@ var vehicle = {
                 colors: ["white", "silver", "Black", "red"],
                 fuelType: "Petrol",
                 engine: "1000CC",
-                Price: "32 - 36 Lacs",
-                transmission: "Automatic"
+                price: "32 - 36 Lacs",
+                transmission: "Automatic",
+                image: '/assests/cars/suzuki/suzuki wagon r.jpg'
             },
-            Cultus: {
-                name: "Suzuki Cultus",
+            Alto: {
+                name: "Suzuki Alto",
                 model: "2020",
                 colors: ["white", "silver", "Black", "red"],
                 fuelType: "Petrol",
                 engine: "1000CC",
-                Price: "38 - 42 Lacs",
-                transmission: "Automatic & Manual"
+                price: "38 - 42 Lacs",
+                transmission: "Automatic & Manual",
+                image: '/assests/cars/suzuki/suzuki alto.jpeg'
             },
             swift: {
                 name: "Suzuki Swift",
@@ -140,8 +144,9 @@ var vehicle = {
                 colors: ["white", "silver", "Black",],
                 fuelType: "Petrol",
                 engine: "1200CC",
-                Price: "38 - 42 Lacs",
-                transmission: "Automatic & Manual"
+                price: "38 - 42 Lacs",
+                transmission: "Automatic & Manual",
+                image: '/assests/cars/suzuki/swift.jpg'
             },
             bolan: {
                 name: "Suzuki Bolan",
@@ -149,8 +154,10 @@ var vehicle = {
                 colors: ["white"],
                 fuelType: "Petrol",
                 engine: "600CC",
-                Price: "20 - 22 Lacs",
-                transmission: "Manual"
+                price: "20 - 22 Lacs",
+                transmission: "Manual",
+                image: '/assests/cars/suzuki/suzuki-bolan.jpg',
+
             },
             ravi: {
                 name: "Suzuki Ravi",
@@ -158,8 +165,9 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Petrol",
                 engine: "600CC",
-                Price: "15 - 20 Lacs",
-                transmission: "Manual"
+                price: "15 - 20 Lacs",
+                transmission: "Manual",
+                image: '/assests/cars/suzuki/suzuki ravi.jpg'
             },
 
         },
@@ -170,7 +178,7 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Charge",
                 engine: "800 volt",
-                Price: "4.5 - 5.5 Crore",
+                price: "4.5 - 5.5 Crore",
                 transmission: "Manual & Auto"
             },
             a5: {
@@ -179,7 +187,7 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Charge",
                 engine: "800 volt",
-                Price: "3 - 4.5 Crore",
+                price: "3 - 4.5 Crore",
                 transmission: "Manual & Auto"
             },
             q7: {
@@ -188,7 +196,7 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Charge",
                 engine: "800 volt",
-                Price: "5 - 6.5 Crore",
+                price: "5 - 6.5 Crore",
                 transmission: "Manual & Auto"
             },
         },
@@ -199,8 +207,9 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Charge",
                 engine: "800 volt",
-                Price: "4.5 - 5.5 Crore",
-                transmission: "Auto"
+                price: "4.5 - 5.5 Crore",
+                transmission: "Auto",
+                image: '/assests/cars/bmw/BMW suv.jpeg'
             },
             sedan: {
                 name: "Audi  Sedan",
@@ -208,8 +217,9 @@ var vehicle = {
                 colors: ["white", "silver", "black"],
                 fuelType: "Charge",
                 engine: "800 volt",
-                Price: "7 - 8.5 Crore",
-                transmission: "Auto"
+                price: "7 - 8.5 Crore",
+                transmission: "Auto",
+                image: "/assests/cars/bmw/bmw sedan.jpg"
             },
         },
         hyndai: {
@@ -219,7 +229,7 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Petrol & Charge",
                 engine: "1800CC",
-                Price: "38 - 45 Lacks",
+                price: "38 - 45 Lacks",
                 transmission: "Auto"
             },
             tucson: {
@@ -228,7 +238,7 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Petrol",
                 engine: "1800CC",
-                Price: "45 - 50 Lacks",
+                price: "45 - 50 Lacks",
                 transmission: "Auto"
             },
             elantra: {
@@ -237,7 +247,7 @@ var vehicle = {
                 colors: ["white", "silver"],
                 fuelType: "Petrol",
                 engine: "1800CC",
-                Price: "50 - 55 Lacks",
+                price: "50 - 55 Lacks",
                 transmission: "Auto"
             },
         }
@@ -327,58 +337,67 @@ var vehicle = {
 
 var vehicles = document.getElementById("vehicle");
 var company = document.getElementById("company");
+var varient = document.getElementById("varient");
+var screen1 = document.getElementById("screen-1");
+var screen2 = document.getElementById("screen-2");
+var screenCol1 = document.getElementById("screen-col1");
+var screenCol2 = document.getElementById("screen-col2")
+
 
 vehicles.innerHTML = "<option value = ''>Select a Vehicle</option>";
 company.innerHTML = "<option value = ''>Select a Company</option>";
+varient.innerHTML = "<option value = ''>Select a Varient</option>";
+
+
 
 for (key in vehicle) {
-    // console.log(key)
-
     vehicles.innerHTML +=
-        `<option value ='${key}'>${key}</option>`
-}
-
-// vehicles.addEventListener("change", getVehicle);
-
-function getVehicle() {
-   
-        for (var key in vehicle[vehicles.value]) {
-            company.innerHTML +=
-
-                `<option value ='${key}'>${key}</option>`
-               
-        }
-      
-}
-// company.innerHTML = ""
-
-// getVehicle()
-
-
-
-// function for click on bikes 
-function getBikes() {
-
-
-
+        `<option value ='${key}'>${key.toUpperCase()}</option>`
 
 }
 
-// function for click on Honda Car 
-function getHondaCar() {
+function getCompany() {
+    company.innerHTML = `<option value = ''>Select a Company</option>`;
+    for (var key in vehicle[vehicles.value]) {
+        company.innerHTML +=
+            `<option value ='${key}'> ${key.toUpperCase()} </option>`
 
-
-
-
+    }
 }
 
+function getCarVarient() {
+    varient.innerHTML = `<option value = ''>Select a Varient</option>`;
+    for (var key in vehicle[vehicles.value][company.value]) {
+        // console.log(key)
 
-// get on click nav-icon
+        varient.innerHTML +=
+            `<option value ='${key}'> ${key.toUpperCase()} </option>`
+
+    }
 
 
+};
 
 
+function getDetail() {
+    // console.log(vehicles.value, company.value , varient.value)
+    screen1.style.display = 'none';
+    screenCol1.innerHTML =
+        `
+         <h1 class ='ms-5 mt-5 text-danger'>${vehicle[vehicles.value][company.value][varient.value].name}</h1>
+         <img width = 80% src = ${vehicle[vehicles.value][company.value][varient.value].image} alt='image'>`
 
+    screenCol2.innerHTML =
+        `
+        <h1 class='text-start mt-5 text-danger'>Specifications</h1>
+        <p class=' mt-3 text-dark fs-4'>Name : ${vehicle[vehicles.value][company.value][varient.value].name}</p>
+        <p class=' text-dark fs-4'>Model : ${vehicle[vehicles.value][company.value][varient.value].model}</p>
+         <p class=' text-dark fs-4'> Colors : ${vehicle[vehicles.value][company.value][varient.value].colors}</p>
+         <p class=' text-dark fs-4'> Fuel Type : ${vehicle[vehicles.value][company.value][varient.value].fuelType}</p>
+          <p class=' text-dark fs-4'> Engine :${vehicle[vehicles.value][company.value][varient.value].engine}</p>
+           <p class=' text-dark fs-4'> Transmission : ${vehicle[vehicles.value][company.value][varient.value].transmission}</p>
+            <p class=' text-dark fs-4'> price : ${vehicle[vehicles.value][company.value][varient.value].price}</p>
+         `
+}
 
-
-// console.log(vehicle.cars.bmw)
+// console.log(getDetail())/
