@@ -49,6 +49,7 @@ body {
 @media (max-width: 1200px) {
   .hero {
     background-position: top;
+    height: 72vh;
   }
 }
 
@@ -154,10 +155,17 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-top: 25px;
   }
 
-  #vehicle{
+  #vehicle {
     width: 100%;
+  }
+
+  .nav-right>.form-select {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
   }
 }
 
