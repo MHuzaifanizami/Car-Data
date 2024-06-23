@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
+
 /* Navbar area start  */
 
 .nav-logo img {
@@ -91,13 +92,14 @@ body{
 }
 
 
-#screen-col2 p{
-  margin-bottom:12px ;
+#screen-col2 p {
+  margin-bottom: 12px;
 }
 
-#screen-row{
+#screen-row {
   max-width: 100%;
 }
+
 /* display area end  */
 
 
@@ -134,7 +136,7 @@ body{
 
 
 @media (max-width: 680px) {
-  .nav-right {
+  /* .nav-right {
     display: none !important;
 
   }
@@ -143,9 +145,21 @@ body{
     display: block;
     font-size: 2.5rem;
     color: red;
+  } */
+
+  .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  #vehicle{
+    width: 100%;
   }
 }
-
 
 .car-list {
   padding: 5px;
@@ -156,4 +170,3 @@ body{
   padding: 5px;
   cursor: pointer;
 }
-
