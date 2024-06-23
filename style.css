@@ -36,6 +36,9 @@ body {
   color: black;
 }
 
+#vehicle{
+  width: 400px;
+}
 
 .hero {
   width: 100%;
@@ -155,18 +158,13 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 20px;
   }
 
   #vehicle {
-    width: 100%;
+    width: 60%;
   }
 
-  .nav-right>.form-select {
-    width: 100%;
-    margin-bottom: 20px;
-    height: 40px;
-  }
 }
 
 .car-list {
